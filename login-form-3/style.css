@@ -1,0 +1,86 @@
+/*Css*/
+*{margin:0; padding:0;}
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.wrapper{
+    min-height: 100%;
+}
+.form-wrapper{
+    width:300px;
+    margin:150px auto;
+    padding: 30px;
+    background-color: #273444;
+}
+.top-btn a{
+    padding:10px;
+    text-decoration: none;
+    color:#fff;
+    text-align:center;
+    display:block;
+    width:43.2%;
+    font-size: 1.2em;
+    float:left;
+    text-transform:capitalize;
+}
+.top-btn::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.top-btn a:nth-child(1){
+    background-color:#0f9f88;
+
+}
+.top-btn a:nth-child(2){
+    background-color:#44505c;
+}
+.heading{
+
+    text-align:center;
+    padding-top:15px;
+    margin-bottom: 20px;
+}
+.heading h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+input[type="text"]{
+    width:48%;
+    float:left;
+    padding:10px;
+    box-sizing:border-box;
+}
+input[type="text"]:nth-child(2){
+    margin-left:12px;
+}
+input[type="email"], input[type="password"]{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+input[type="text"], input[type="email"], input[type="password"]{
+    margin-top:20px;
+    outline:none;
+    border:1px solid #657282;
+    background-color: #273444;
+    color: #fff;
+}
+input::-webkit-input-placeholder{
+    color: #a5adb8;
+
+}
+input[type="submit"]{
+    background-color:#0f9f88;
+    border:1px solid #0f9f88;
+    color: #fff;
+    width:100%;
+    padding:10px;
+    margin-top:20px;
+    font-size:1.05em;
+    text-transform:capitalize;
+}
